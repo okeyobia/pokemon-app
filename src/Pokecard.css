@@ -2,5 +2,31 @@
   border: 1px solid #d2d2d2;
   width: 18rem;
   margin: 40px auto;
+  padding: 10px;
   text-align: center;
+
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 7px 10px 11px -4px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 7px 10px 11px -4px rgba(0, 0, 0, 0.65);
+  box-shadow: 7px 10px 11px -4px rgba(0, 0, 0, 0.65);
+}
+.card-title {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.Pokecard-card img {
+  transition: all ease 500ms;
+}
+.Pokecard-card img:hover {
+  transform: scale(1.2);
+}
+
+.Pokecard-img {
+  background-color: #d2d2d2;
 }
